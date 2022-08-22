@@ -85,3 +85,109 @@ p {
     margin-top: 30px;
     cursor: pointer;
 }
+
+.random {
+    width: 60%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.random h1 {
+    text-align: center;
+    padding: 40px;
+
+}
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+}
+.boxes p {
+    color: #1f2937;
+    text-align: center;
+    width: 200px;
+}
+
+.box p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    margin: auto;
+}
+
+.text p {
+    font-size: 36px;
+    color: #1f2937;
+    padding: 150px 0;
+    width: 55%;
+    margin: auto;
+    font-style: italic;
+}
+
+span {
+    display: inline-block;
+    font-size: 30px;
+    font-weight: 700;
+    color: #1f2937;
+    float: right;
+    padding: 30px;
+}
+
+.cta {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 150px 0;
+}
+
+.cta-content {
+    background-color: #3882f6;
+    width: 60%;
+    display: flex;
+    border-radius: 12px;
+    padding: 50px 150px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-content h1 {
+    font-size: 40px;
+    color: #f9faf8;
+    text-align: left;
+}
+
+.cta-content p {
+    font-size: 20px;
+    text-align: left;
+}
+
+.cta-btn {
+    background-color: #3882f6;
+    border: 5px solid #f9faf8;
+    padding: 15px 50px;
+    font-size: 25px;
+    border-radius: 12px;
+    color: #f9faf8;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #1f2937;
+    padding: 50px;
+}
+
+.footer .copy {
+    color: #f9faf8;
+    font-size: 22px;
+    text-align: center;
+}
